@@ -1,7 +1,0 @@
-test_risk_aware_astar 3 0.0150545
-test_perception_risk_builder 3 0.0155937
-test_risk_corridor 3 0.0195692
-test_grid_astar_planner 2 0.0494913
-test_risk_grid 2 0.0205032
-test_mco_risk_penalty 2 0.0162787
----

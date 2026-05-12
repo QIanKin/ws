@@ -1,0 +1,220 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (-) JobUnselected: {'identifier': 'dynamic_occpuancy_map'}
+[0.000638] (-) JobUnselected: {'identifier': 'dynus'}
+[0.001075] (-) JobUnselected: {'identifier': 'mocha_planner'}
+[0.001111] (-) JobUnselected: {'identifier': 'rast_corridor_planning'}
+[0.001133] (pmocha_experiments) JobQueued: {'identifier': 'pmocha_experiments', 'dependencies': OrderedDict()}
+[0.001155] (pmocha_experiments) JobStarted: {'identifier': 'pmocha_experiments'}
+[0.006535] (pmocha_experiments) JobProgress: {'identifier': 'pmocha_experiments', 'progress': 'cmake'}
+[0.006919] (pmocha_experiments) JobProgress: {'identifier': 'pmocha_experiments', 'progress': 'build'}
+[0.007394] (pmocha_experiments) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhanghechao/workspace/ws/build/pmocha_experiments', '--', '-j8', '-l8'], 'cwd': '/home/zhanghechao/workspace/ws/build/pmocha_experiments', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/zhanghechao'), ('CURSOR_EXTENSION_HOST_ROLE', 'agent-exec'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'zhanghechao'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/tcf.json","messagesFile":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/fce1e9ab7844f9ea35793da01e634aa7e50bce90/nls.messages.json","corruptMarkerFile":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/tcf.json","_cacheRoot":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn","_resolvedLanguagePackCoreLocation":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/fce1e9ab7844f9ea35793da01e634aa7e50bce90","_corruptedFile":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhanghechao'), ('CHROME_DESKTOP', 'cursor.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-1fff4d92-3.1.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('CURSOR_WORKSPACE_LABEL', 'ws'), ('MANAGERPID', '1954'), ('SYSTEMD_EXEC_PID', '2255'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4013'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zhanghechao/workspace/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zhanghechao'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:13831'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhanghechao'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zhanghechao/.local/bin:/usr/share/cursor/resources/app/resources/helpers:/home/zhanghechao/.local/bin:/opt/ros/humble/bin:/home/zhanghechao/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zhanghechao-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2228,unix/zhanghechao-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2228'), ('INVOCATION_ID', 'c3bf6f3c7340401eb80a172427b3761e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('VSCODE_PROCESS_TITLE', 'extension-host (agent-exec) ws [3-14]'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zhanghechao/workspace/ws/install/pmocha_experiments:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zhanghechao/workspace/ws/build/pmocha_experiments'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/zhanghechao/.config/Cursor/CachedData/fce1e9ab7844f9ea35793da01e634aa7e50bce90'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('CMAKE_PREFIX_PATH', '/home/zhanghechao/workspace/ws/install/pmocha_experiments:/opt/ros/humble'), ('VSCODE_PID', '4013')]), 'shell': False}
+[0.099841] (-) TimerEvent: {}
+[0.127930] (pmocha_experiments) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.154590] (pmocha_experiments) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.155999] (pmocha_experiments) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.162128] (pmocha_experiments) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.169334] (pmocha_experiments) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.178592] (pmocha_experiments) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199989] (-) TimerEvent: {}
+[0.205061] (pmocha_experiments) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.205708] (pmocha_experiments) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.275631] (pmocha_experiments) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300235] (-) TimerEvent: {}
+[0.400512] (-) TimerEvent: {}
+[0.464475] (pmocha_experiments) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.486351] (pmocha_experiments) StdoutLine: {'line': b'-- Generating done\n'}
+[0.494069] (pmocha_experiments) StdoutLine: {'line': b'-- Build files have been written to: /home/zhanghechao/workspace/ws/build/pmocha_experiments\n'}
+[0.500787] (-) TimerEvent: {}
+[0.524170] (pmocha_experiments) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target mocha_core\n'}
+[0.536649] (pmocha_experiments) StdoutLine: {'line': b'[ 15%] Built target mocha_core\n'}
+[0.546573] (pmocha_experiments) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target test_core_ackermann_bilayer_optimizer\n'}
+[0.546904] (pmocha_experiments) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target test_core_mco_optimizer\n'}
+[0.556563] (pmocha_experiments) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target pmocha_experiment_core\n'}
+[0.562704] (pmocha_experiments) StdoutLine: {'line': b'[ 26%] Built target test_core_mco_optimizer\n'}
+[0.563286] (pmocha_experiments) StdoutLine: {'line': b'[ 36%] Built target test_core_ackermann_bilayer_optimizer\n'}
+[0.581404] (pmocha_experiments) StdoutLine: {'line': b'[ 68%] Built target pmocha_experiment_core\n'}
+[0.594821] (pmocha_experiments) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target test_grid_corridor_pipeline\n'}
+[0.597122] (pmocha_experiments) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target test_mocha_single_corridor_pipeline\n'}
+[0.600977] (-) TimerEvent: {}
+[0.609656] (pmocha_experiments) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/perception_grid_node.dir/src/perception_grid_node.cpp.o\n'}
+[0.609849] (pmocha_experiments) StdoutLine: {'line': b'[ 84%] Built target test_grid_corridor_pipeline\n'}
+[0.612339] (pmocha_experiments) StdoutLine: {'line': b'[ 94%] Built target test_mocha_single_corridor_pipeline\n'}
+[0.701092] (-) TimerEvent: {}
+[0.801521] (-) TimerEvent: {}
+[0.901936] (-) TimerEvent: {}
+[1.002279] (-) TimerEvent: {}
+[1.102517] (-) TimerEvent: {}
+[1.202724] (-) TimerEvent: {}
+[1.302942] (-) TimerEvent: {}
+[1.403164] (-) TimerEvent: {}
+[1.503369] (-) TimerEvent: {}
+[1.603556] (-) TimerEvent: {}
+[1.703716] (-) TimerEvent: {}
+[1.803904] (-) TimerEvent: {}
+[1.904098] (-) TimerEvent: {}
+[2.004293] (-) TimerEvent: {}
+[2.104456] (-) TimerEvent: {}
+[2.204655] (-) TimerEvent: {}
+[2.304868] (-) TimerEvent: {}
+[2.405058] (-) TimerEvent: {}
+[2.505221] (-) TimerEvent: {}
+[2.605424] (-) TimerEvent: {}
+[2.705628] (-) TimerEvent: {}
+[2.805832] (-) TimerEvent: {}
+[2.906033] (-) TimerEvent: {}
+[3.006248] (-) TimerEvent: {}
+[3.106474] (-) TimerEvent: {}
+[3.206680] (-) TimerEvent: {}
+[3.306882] (-) TimerEvent: {}
+[3.407086] (-) TimerEvent: {}
+[3.507300] (-) TimerEvent: {}
+[3.607476] (-) TimerEvent: {}
+[3.707641] (-) TimerEvent: {}
+[3.807825] (-) TimerEvent: {}
+[3.908017] (-) TimerEvent: {}
+[4.008229] (-) TimerEvent: {}
+[4.108452] (-) TimerEvent: {}
+[4.208670] (-) TimerEvent: {}
+[4.308904] (-) TimerEvent: {}
+[4.409190] (-) TimerEvent: {}
+[4.509453] (-) TimerEvent: {}
+[4.609673] (-) TimerEvent: {}
+[4.709872] (-) TimerEvent: {}
+[4.810077] (-) TimerEvent: {}
+[4.910257] (-) TimerEvent: {}
+[5.010501] (-) TimerEvent: {}
+[5.110711] (-) TimerEvent: {}
+[5.210899] (-) TimerEvent: {}
+[5.311092] (-) TimerEvent: {}
+[5.411290] (-) TimerEvent: {}
+[5.511453] (-) TimerEvent: {}
+[5.611616] (-) TimerEvent: {}
+[5.711793] (-) TimerEvent: {}
+[5.811996] (-) TimerEvent: {}
+[5.912232] (-) TimerEvent: {}
+[6.012557] (-) TimerEvent: {}
+[6.113031] (-) TimerEvent: {}
+[6.213347] (-) TimerEvent: {}
+[6.313588] (-) TimerEvent: {}
+[6.413824] (-) TimerEvent: {}
+[6.514187] (-) TimerEvent: {}
+[6.614585] (-) TimerEvent: {}
+[6.714851] (-) TimerEvent: {}
+[6.815069] (-) TimerEvent: {}
+[6.916773] (-) TimerEvent: {}
+[7.017013] (-) TimerEvent: {}
+[7.117231] (-) TimerEvent: {}
+[7.217406] (-) TimerEvent: {}
+[7.317602] (-) TimerEvent: {}
+[7.418312] (-) TimerEvent: {}
+[7.518526] (-) TimerEvent: {}
+[7.618716] (-) TimerEvent: {}
+[7.718902] (-) TimerEvent: {}
+[7.819110] (-) TimerEvent: {}
+[7.919331] (-) TimerEvent: {}
+[8.020421] (-) TimerEvent: {}
+[8.120642] (-) TimerEvent: {}
+[8.220910] (-) TimerEvent: {}
+[8.321101] (-) TimerEvent: {}
+[8.421305] (-) TimerEvent: {}
+[8.521488] (-) TimerEvent: {}
+[8.621689] (-) TimerEvent: {}
+[8.721883] (-) TimerEvent: {}
+[8.822075] (-) TimerEvent: {}
+[8.922329] (-) TimerEvent: {}
+[9.022508] (-) TimerEvent: {}
+[9.122714] (-) TimerEvent: {}
+[9.222913] (-) TimerEvent: {}
+[9.323115] (-) TimerEvent: {}
+[9.423328] (-) TimerEvent: {}
+[9.523524] (-) TimerEvent: {}
+[9.623721] (-) TimerEvent: {}
+[9.724044] (-) TimerEvent: {}
+[9.829410] (-) TimerEvent: {}
+[9.929750] (-) TimerEvent: {}
+[10.030061] (-) TimerEvent: {}
+[10.130336] (-) TimerEvent: {}
+[10.230551] (-) TimerEvent: {}
+[10.330760] (-) TimerEvent: {}
+[10.430951] (-) TimerEvent: {}
+[10.531157] (-) TimerEvent: {}
+[10.631346] (-) TimerEvent: {}
+[10.731508] (-) TimerEvent: {}
+[10.831687] (-) TimerEvent: {}
+[10.931882] (-) TimerEvent: {}
+[11.032050] (-) TimerEvent: {}
+[11.132240] (-) TimerEvent: {}
+[11.232405] (-) TimerEvent: {}
+[11.332584] (-) TimerEvent: {}
+[11.432774] (-) TimerEvent: {}
+[11.532985] (-) TimerEvent: {}
+[11.633200] (-) TimerEvent: {}
+[11.733378] (-) TimerEvent: {}
+[11.833553] (-) TimerEvent: {}
+[11.933754] (-) TimerEvent: {}
+[12.033948] (-) TimerEvent: {}
+[12.134148] (-) TimerEvent: {}
+[12.234444] (-) TimerEvent: {}
+[12.334631] (-) TimerEvent: {}
+[12.403969] (pmocha_experiments) StdoutLine: {'line': b'[100%] Linking CXX executable perception_grid_node\n'}
+[12.434746] (-) TimerEvent: {}
+[12.534910] (-) TimerEvent: {}
+[12.586248] (pmocha_experiments) StdoutLine: {'line': b'[100%] Built target perception_grid_node\n'}
+[12.596009] (pmocha_experiments) CommandEnded: {'returncode': 0}
+[12.597056] (pmocha_experiments) JobProgress: {'identifier': 'pmocha_experiments', 'progress': 'install'}
+[12.605193] (pmocha_experiments) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhanghechao/workspace/ws/build/pmocha_experiments'], 'cwd': '/home/zhanghechao/workspace/ws/build/pmocha_experiments', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/zhanghechao'), ('CURSOR_EXTENSION_HOST_ROLE', 'agent-exec'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'zhanghechao'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/tcf.json","messagesFile":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/fce1e9ab7844f9ea35793da01e634aa7e50bce90/nls.messages.json","corruptMarkerFile":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/tcf.json","_cacheRoot":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn","_resolvedLanguagePackCoreLocation":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/fce1e9ab7844f9ea35793da01e634aa7e50bce90","_corruptedFile":"/home/zhanghechao/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zhanghechao'), ('CHROME_DESKTOP', 'cursor.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-1fff4d92-3.1.-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('CURSOR_WORKSPACE_LABEL', 'ws'), ('MANAGERPID', '1954'), ('SYSTEMD_EXEC_PID', '2255'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4013'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/zhanghechao/workspace/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zhanghechao'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:13831'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CURSOR_LAYOUT', 'unifiedAgent'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhanghechao'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/zhanghechao/.local/bin:/usr/share/cursor/resources/app/resources/helpers:/home/zhanghechao/.local/bin:/opt/ros/humble/bin:/home/zhanghechao/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zhanghechao-ThinkBook-15-G2-ITL:@/tmp/.ICE-unix/2228,unix/zhanghechao-ThinkBook-15-G2-ITL:/tmp/.ICE-unix/2228'), ('INVOCATION_ID', 'c3bf6f3c7340401eb80a172427b3761e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('VSCODE_PROCESS_TITLE', 'extension-host (agent-exec) ws [3-14]'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zhanghechao/workspace/ws/install/pmocha_experiments:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zhanghechao/workspace/ws/build/pmocha_experiments'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/zhanghechao/.config/Cursor/CachedData/fce1e9ab7844f9ea35793da01e634aa7e50bce90'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('CMAKE_PREFIX_PATH', '/home/zhanghechao/workspace/ws/install/pmocha_experiments:/opt/ros/humble'), ('VSCODE_PID', '4013')]), 'shell': False}
+[12.613148] (pmocha_experiments) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[12.613601] (pmocha_experiments) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.614064] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/libmocha_core.a\n'}
+[12.614340] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/mocha_planner/core/ackermann_bilayer_optimizer.hpp\n'}
+[12.614464] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/mocha_planner/core/mco_optimizer.hpp\n'}
+[12.614656] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/mocha_planner/core/types.hpp\n'}
+[12.614870] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/mocha_planner/third_party/lbfgs.hpp\n'}
+[12.615393] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/libpmocha_experiment_core.a\n'}
+[12.615738] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/pmocha_experiments/esdf_grid.hpp\n'}
+[12.615847] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/pmocha_experiments/occupancy_grid.hpp\n'}
+[12.615946] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/pmocha_experiments/single_astar.hpp\n'}
+[12.616052] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/pmocha_experiments/single_corridor.hpp\n'}
+[12.616147] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/pmocha_experiments/trajectory_evaluator.hpp\n'}
+[12.616464] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/launch/pmocha_sensor_sim.launch.py\n'}
+[12.616644] (pmocha_experiments) StdoutLine: {'line': b'-- Symlinking: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/launch/pmocha_v0_pipeline.launch.py\n'}
+[12.623359] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/urdf/pioneer3at_body.urdf.xacro\n'}
+[12.623507] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/urdf/pmocha_dynus_ground_robot.urdf.xacro\n'}
+[12.623549] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/urdf/pmocha_ground_robot.urdf.xacro\n'}
+[12.623651] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/worlds/corner_occlusion.world\n'}
+[12.623726] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/worlds/dynus/empty.world\n'}
+[12.623794] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/worlds/dynus/office.world\n'}
+[12.623859] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/worlds/dynus/simple_tunnel.world\n'}
+[12.623987] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/config/v0_topics.yaml\n'}
+[12.624158] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/axle.stl\n'}
+[12.624230] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/back_sonar.stl\n'}
+[12.624305] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/chassis.stl\n'}
+[12.624408] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/front_sonar.stl\n'}
+[12.624453] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/left_hubcap.stl\n'}
+[12.624522] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/right_hubcap.stl\n'}
+[12.624559] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/top.stl\n'}
+[12.624628] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/wheel.stl\n'}
+[12.624674] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/real_sense/d435.dae\n'}
+[12.624742] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/rviz/dynus_sim_ground_robot.rviz\n'}
+[12.624873] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/rviz/pmocha_v0.rviz\n'}
+[12.625018] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/pmocha_experiments/teleop.sh\n'}
+[12.625235] (pmocha_experiments) StdoutLine: {'line': b'-- Symlinking: /home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/pmocha_experiments/perception_grid_node\n'}
+[12.632769] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/ament_index/resource_index/package_run_dependencies/pmocha_experiments\n'}
+[12.632918] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/ament_index/resource_index/parent_prefix_path/pmocha_experiments\n'}
+[12.633084] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/environment/ament_prefix_path.sh\n'}
+[12.633183] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/environment/ament_prefix_path.dsv\n'}
+[12.633368] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/environment/path.sh\n'}
+[12.633616] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/environment/path.dsv\n'}
+[12.633873] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/local_setup.bash\n'}
+[12.634133] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/local_setup.sh\n'}
+[12.634363] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/local_setup.zsh\n'}
+[12.634601] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/local_setup.dsv\n'}
+[12.634684] (pmocha_experiments) StdoutLine: {'line': b'-- Symlinking: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.dsv\n'}
+[12.634957] (-) TimerEvent: {}
+[12.641040] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/ament_index/resource_index/packages/pmocha_experiments\n'}
+[12.641246] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/cmake/pmocha_experimentsConfig.cmake\n'}
+[12.641452] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/cmake/pmocha_experimentsConfig-version.cmake\n'}
+[12.641644] (pmocha_experiments) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.xml\n'}
+[12.642813] (pmocha_experiments) CommandEnded: {'returncode': 0}
+[12.660483] (pmocha_experiments) JobEnded: {'identifier': 'pmocha_experiments', 'rc': 0}
+[12.660988] (-) EventReactorShutdown: {}

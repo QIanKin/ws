@@ -1,0 +1,65 @@
+[0.010s] Invoking command in '/home/zhanghechao/workspace/ws/build/pmocha_experiments': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zhanghechao/workspace/ws/build/pmocha_experiments -- -j8 -l8
+[0.051s] [ 15%] Built target mocha_core
+[0.069s] [ 31%] Built target test_core_ackermann_bilayer_optimizer
+[0.069s] [ 42%] Built target test_core_mco_optimizer
+[0.069s] [ 68%] Built target pmocha_experiment_core
+[0.081s] Consolidate compiler generated dependencies of target perception_grid_node
+[0.087s] [ 89%] Built target test_grid_corridor_pipeline
+[0.087s] [ 89%] Built target test_mocha_single_corridor_pipeline
+[0.092s] [ 94%] Building CXX object CMakeFiles/perception_grid_node.dir/src/perception_grid_node.cpp.o
+[11.972s] [100%] Linking CXX executable perception_grid_node
+[12.125s] [100%] Built target perception_grid_node
+[12.137s] Invoked command in '/home/zhanghechao/workspace/ws/build/pmocha_experiments' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zhanghechao/workspace/ws/build/pmocha_experiments -- -j8 -l8
+[12.145s] Invoking command in '/home/zhanghechao/workspace/ws/build/pmocha_experiments': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zhanghechao/workspace/ws/build/pmocha_experiments
+[12.149s] -- Install configuration: "Release"
+[12.150s] -- Execute custom install script
+[12.150s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/libmocha_core.a
+[12.150s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/mocha_planner/core/ackermann_bilayer_optimizer.hpp
+[12.151s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/mocha_planner/core/mco_optimizer.hpp
+[12.151s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/mocha_planner/core/types.hpp
+[12.151s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/mocha_planner/third_party/lbfgs.hpp
+[12.151s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/libpmocha_experiment_core.a
+[12.151s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/pmocha_experiments/esdf_grid.hpp
+[12.151s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/pmocha_experiments/occupancy_grid.hpp
+[12.151s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/pmocha_experiments/single_astar.hpp
+[12.151s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/pmocha_experiments/single_corridor.hpp
+[12.152s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/include/pmocha_experiments/trajectory_evaluator.hpp
+[12.152s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/launch/pmocha_sensor_sim.launch.py
+[12.152s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/launch/pmocha_v0_pipeline.launch.py
+[12.152s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/urdf/pioneer3at_body.urdf.xacro
+[12.152s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/urdf/pmocha_dynus_ground_robot.urdf.xacro
+[12.152s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/urdf/pmocha_ground_robot.urdf.xacro
+[12.153s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/worlds/corner_occlusion.world
+[12.153s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/worlds/dynus/empty.world
+[12.153s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/worlds/dynus/office.world
+[12.153s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/worlds/dynus/simple_tunnel.world
+[12.153s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/config/v0_topics.yaml
+[12.154s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/axle.stl
+[12.154s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/back_sonar.stl
+[12.154s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/chassis.stl
+[12.154s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/front_sonar.stl
+[12.154s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/left_hubcap.stl
+[12.154s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/right_hubcap.stl
+[12.154s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/top.stl
+[12.155s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/p3at_meshes/wheel.stl
+[12.155s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/meshes/real_sense/d435.dae
+[12.155s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/rviz/dynus_sim_ground_robot.rviz
+[12.155s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/rviz/pmocha_v0.rviz
+[12.155s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/pmocha_experiments/teleop.sh
+[12.155s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/pmocha_experiments/perception_grid_node
+[12.155s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/ament_index/resource_index/package_run_dependencies/pmocha_experiments
+[12.156s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/ament_index/resource_index/parent_prefix_path/pmocha_experiments
+[12.156s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/environment/ament_prefix_path.sh
+[12.156s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/environment/ament_prefix_path.dsv
+[12.156s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/environment/path.sh
+[12.156s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/environment/path.dsv
+[12.156s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/local_setup.bash
+[12.156s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/local_setup.sh
+[12.156s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/local_setup.zsh
+[12.156s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/local_setup.dsv
+[12.156s] -- Symlinking: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.dsv
+[12.163s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/ament_index/resource_index/packages/pmocha_experiments
+[12.163s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/cmake/pmocha_experimentsConfig.cmake
+[12.163s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/cmake/pmocha_experimentsConfig-version.cmake
+[12.163s] -- Up-to-date symlink: /home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.xml
+[12.165s] Invoked command in '/home/zhanghechao/workspace/ws/build/pmocha_experiments' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zhanghechao/workspace/ws/build/pmocha_experiments

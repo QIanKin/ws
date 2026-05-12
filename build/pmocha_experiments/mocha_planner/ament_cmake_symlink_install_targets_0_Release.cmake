@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zhanghechao/workspace/ws/build/pmocha_experiments/mocha_planner/libmocha_core.a" "TARGETS" "mocha_core" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

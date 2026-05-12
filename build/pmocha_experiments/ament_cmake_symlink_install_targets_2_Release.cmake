@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zhanghechao/workspace/ws/build/pmocha_experiments/perception_grid_node" "TARGETS" "perception_grid_node" "DESTINATION" "lib/pmocha_experiments")

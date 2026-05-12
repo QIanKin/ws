@@ -1,0 +1,14 @@
+CMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+  The keyword signature for target_link_libraries has already been used with
+  the target "perception_grid_node".  All uses of target_link_libraries with
+  a target must be either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * CMakeLists.txt:67 (target_link_libraries)
+
+Call Stack (most recent call first):
+  CMakeLists.txt:68 (ament_target_dependencies)
+
+
+gmake: *** [Makefile:499：cmake_check_build_system] 错误 1

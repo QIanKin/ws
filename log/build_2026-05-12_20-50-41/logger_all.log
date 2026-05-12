@@ -1,0 +1,199 @@
+[0.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pmocha_experiments', '--symlink-install']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['pmocha_experiments'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78b70b75c070>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78b70b723a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78b70b723a30>>)
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.187s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zhanghechao/workspace/ws'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(DSP-map) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(DSP-map) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(DSP-map) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(DSP-map) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(DSP-map) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(DSP-map) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(DSP-map) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(DSP-map) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(DSP-map) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'DSP-map' with type 'ros.catkin' and name 'dynamic_occpuancy_map'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/mocha_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/mocha_planner) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/mocha_planner) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/mocha_planner) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/mocha_planner) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/mocha_planner) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/mocha_planner) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/mocha_planner) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/mocha_planner) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'MOCHA/mocha_planner' with type 'ros.cmake' and name 'mocha_planner'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/pmocha_experiments) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/pmocha_experiments) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/pmocha_experiments) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/pmocha_experiments) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/pmocha_experiments) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/pmocha_experiments) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/pmocha_experiments) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/pmocha_experiments) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(MOCHA/pmocha_experiments) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'MOCHA/pmocha_experiments' with type 'ros.ament_cmake' and name 'pmocha_experiments'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(RAST_corridor_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(RAST_corridor_planning) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(RAST_corridor_planning) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(RAST_corridor_planning) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(RAST_corridor_planning) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(RAST_corridor_planning) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(RAST_corridor_planning) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(RAST_corridor_planning) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(RAST_corridor_planning) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'RAST_corridor_planning' with type 'ros.catkin' and name 'rast_corridor_planning'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(dynus) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(dynus) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(dynus) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(dynus) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(dynus) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(dynus) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(dynus) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(dynus) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(dynus) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'dynus' with type 'ros.ament_cmake' and name 'dynus'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.226s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamic_occpuancy_map' in 'DSP-map'
+[0.226s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynus' in 'dynus'
+[0.226s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mocha_planner' in 'MOCHA/mocha_planner'
+[0.226s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rast_corridor_planning' in 'RAST_corridor_planning'
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.227s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/zhanghechao/workspace/ws/install
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pmocha_experiments' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pmocha_experiments' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pmocha_experiments' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'pmocha_experiments' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pmocha_experiments' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pmocha_experiments' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pmocha_experiments' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pmocha_experiments' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'pmocha_experiments' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'pmocha_experiments' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zhanghechao/workspace/ws/build/pmocha_experiments', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zhanghechao/workspace/ws/install/pmocha_experiments', 'merge_install': False, 'path': '/home/zhanghechao/workspace/ws/MOCHA/pmocha_experiments', 'symlink_install': True, 'test_result_base': None}
+[0.254s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zhanghechao/workspace/ws/MOCHA/pmocha_experiments' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zhanghechao/workspace/ws/MOCHA/pmocha_experiments'
+[0.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhanghechao/workspace/ws/build/pmocha_experiments': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zhanghechao/workspace/ws/build/pmocha_experiments -- -j8 -l8
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhanghechao/workspace/ws/build/pmocha_experiments' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zhanghechao/workspace/ws/build/pmocha_experiments -- -j8 -l8
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zhanghechao/workspace/ws/build/pmocha_experiments': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zhanghechao/workspace/ws/build/pmocha_experiments
+[0.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pmocha_experiments)
+[0.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zhanghechao/workspace/ws/build/pmocha_experiments' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zhanghechao/workspace/ws/build/pmocha_experiments
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments' for CMake module files
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments' for CMake config files
+[0.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('pmocha_experiments', 'cmake_prefix_path')
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/hook/cmake_prefix_path.ps1'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/hook/cmake_prefix_path.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/hook/cmake_prefix_path.sh'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments/lib'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments/bin'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/pkgconfig/pmocha_experiments.pc'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/python3.10/site-packages'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments/bin'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.sh'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.bash'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.zsh'
+[0.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/colcon-core/packages/pmocha_experiments)
+[0.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pmocha_experiments)
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments' for CMake module files
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments' for CMake config files
+[0.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('pmocha_experiments', 'cmake_prefix_path')
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/hook/cmake_prefix_path.ps1'
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/hook/cmake_prefix_path.dsv'
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/hook/cmake_prefix_path.sh'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments/lib'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments/bin'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/pkgconfig/pmocha_experiments.pc'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments/lib/python3.10/site-packages'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/zhanghechao/workspace/ws/install/pmocha_experiments/bin'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.sh'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.bash'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/pmocha_experiments/package.zsh'
+[0.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zhanghechao/workspace/ws/install/pmocha_experiments/share/colcon-core/packages/pmocha_experiments)
+[0.647s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.647s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.647s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.647s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.650s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.650s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.650s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.656s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.656s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhanghechao/workspace/ws/install/local_setup.ps1'
+[0.657s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zhanghechao/workspace/ws/install/_local_setup_util_ps1.py'
+[0.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhanghechao/workspace/ws/install/setup.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhanghechao/workspace/ws/install/local_setup.sh'
+[0.660s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zhanghechao/workspace/ws/install/_local_setup_util_sh.py'
+[0.660s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhanghechao/workspace/ws/install/setup.sh'
+[0.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhanghechao/workspace/ws/install/local_setup.bash'
+[0.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhanghechao/workspace/ws/install/setup.bash'
+[0.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zhanghechao/workspace/ws/install/local_setup.zsh'
+[0.662s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zhanghechao/workspace/ws/install/setup.zsh'

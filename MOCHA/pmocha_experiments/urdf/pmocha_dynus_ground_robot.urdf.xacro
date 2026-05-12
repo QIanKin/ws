@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<robot name="pmocha_dynus_ground_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:arg name="namespace" default="pmocha"/>
+  <xacro:arg name="depth_range_max" default="8.0"/>
+
+  <xacro:property name="M_PI" value="3.1415926535897931"/>
+
+  <!-- DYNUS Pioneer3AT ground robot body and diff-drive Gazebo plugin. -->
+  <xacro:include filename="$(find pmocha_experiments)/urdf/pioneer3at_body.urdf.xacro"/>
+  <xacro:p3at_gazebo_ext name="$(arg namespace)_p3at" namespace="$(arg namespace)"/>
+
+  <link name="d435_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="${M_PI/2} 0 ${M_PI/2}"/>
+      <geometry>
+        <mesh filename="file://$(find pmocha_experiments)/meshes/real_sense/d435.dae"/>
+      </geometry>
+      <material name="camera_gray">
+        <color rgba="0.45 0.45 0.45 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.16 0.05 0.05"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.2"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+    </inertial>
+  </link>
+
+  <joint name="d435_joint" type="fixed">
+    <origin xyz="0.45 0.0 0.55" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="d435_link"/>
+  </joint>
+
+  <link name="d435_depth_frame"/>
+  <joint name="d435_depth_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="d435_link"/>
+    <child link="d435_depth_frame"/>
+  </joint>
+
+  <link name="d435_depth_optical_frame"/>
+  <joint name="d435_depth_optical_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="${-M_PI/2} 0 ${-M_PI/2}"/>
+    <parent link="d435_depth_frame"/>
+    <child link="d435_depth_optical_frame"/>
+  </joint>
+
+  <gazebo reference="d435_link">
+    <sensor name="d435_depth" type="depth">
+      <always_on>true</always_on>
+      <update_rate>10</update_rate>
+      <visualize>true</visualize>
+      <camera>
+        <horizontal_fov>1.487</horizontal_fov>
+        <image>
+          <width>160</width>
+          <height>120</height>
+          <format>R8G8B8</format>
+        </image>
+        <depth_camera>
+        </depth_camera>
+        <clip>
+          <near>0.10</near>
+          <far>$(arg depth_range_max)</far>
+        </clip>
+      </camera>
+      <plugin name="d435_depth_controller" filename="libgazebo_ros_camera.so">
+        <ros>
+          <namespace>/$(arg namespace)</namespace>
+          <remapping>d435/image_raw:=d435/color/image_raw</remapping>
+          <remapping>d435/depth/image_raw:=d435/depth/image_raw</remapping>
+          <remapping>d435/camera_info:=d435/color/camera_info</remapping>
+          <remapping>d435/depth/camera_info:=d435/depth/camera_info</remapping>
+          <remapping>d435/points:=d435/depth/color/points</remapping>
+        </ros>
+        <camera_name>d435</camera_name>
+        <frame_name>d435_depth_optical_frame</frame_name>
+        <min_depth>0.10</min_depth>
+        <max_depth>$(arg depth_range_max)</max_depth>
+      </plugin>
+    </sensor>
+  </gazebo>
+</robot>

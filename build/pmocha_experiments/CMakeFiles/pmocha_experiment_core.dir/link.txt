@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpmocha_experiment_core.a CMakeFiles/pmocha_experiment_core.dir/src/occupancy_grid.cpp.o CMakeFiles/pmocha_experiment_core.dir/src/esdf_grid.cpp.o CMakeFiles/pmocha_experiment_core.dir/src/single_astar.cpp.o CMakeFiles/pmocha_experiment_core.dir/src/single_corridor.cpp.o CMakeFiles/pmocha_experiment_core.dir/src/trajectory_evaluator.cpp.o
+/usr/bin/ranlib libpmocha_experiment_core.a

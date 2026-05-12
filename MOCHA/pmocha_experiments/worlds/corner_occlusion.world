@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="pmocha_corner_occlusion">
+    <plugin name="gazebo_ros_init" filename="libgazebo_ros_init.so"/>
+    <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so"/>
+
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>30 20</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>30 20</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.45 0.45 0.45 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="wall_long">
+      <static>true</static>
+      <pose>2.5 1.2 1.0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>5.0 0.25 2.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>5.0 0.25 2.0</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.7 0.2 0.2 1</ambient>
+            <diffuse>0.7 0.2 0.2 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="wall_corner">
+      <static>true</static>
+      <pose>5.0 -0.6 1.0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.25 3.6 2.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.25 3.6 2.0</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.7 0.2 0.2 1</ambient>
+            <diffuse>0.7 0.2 0.2 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="box_obstacle">
+      <static>true</static>
+      <pose>2.4 -0.8 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.7 0.7 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.7 0.7 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.7 1</ambient>
+            <diffuse>0.2 0.2 0.7 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <physics type="ode">
+      <max_step_size>0.01</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>100</real_time_update_rate>
+    </physics>
+
+    <gui fullscreen="0">
+      <camera name="user_camera">
+        <pose>-3.0 0.0 1.8 0 0.32 0</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+  </world>
+</sdf>

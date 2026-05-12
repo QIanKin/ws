@@ -2,18 +2,11 @@
 <package format="3">
   <name>mocha_planner</name>
   <version>0.1.0</version>
-  <description>Core and RViz demo for V1 risk-aware omnidirectional MOCHA planning.</description>
+  <description>Core MOCHA optimizers for omnidirectional and Ackermann/yaw-constrained trajectory planning.</description>
   <maintainer email="user@example.com">mocha</maintainer>
   <license>MIT</license>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
-  <depend>rclcpp</depend>
-  <depend>geometry_msgs</depend>
-  <depend>nav_msgs</depend>
-  <depend>sensor_msgs</depend>
-  <depend>visualization_msgs</depend>
-
   <export>
-    <build_type>ament_cmake</build_type>
+    <build_type>cmake</build_type>
   </export>
 </package>

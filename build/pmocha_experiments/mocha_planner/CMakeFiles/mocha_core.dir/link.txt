@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmocha_core.a CMakeFiles/mocha_core.dir/src/core/ackermann_bilayer_optimizer.cpp.o CMakeFiles/mocha_core.dir/src/core/mco_optimizer.cpp.o
+/usr/bin/ranlib libmocha_core.a

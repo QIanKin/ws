@@ -1,0 +1,16 @@
+topics:
+  depth_image: /pmocha/d435/depth/image_raw
+  depth_camera_info: /pmocha/d435/depth/camera_info
+  pointcloud: /pmocha/d435/depth/color/points
+
+frames:
+  base: base_link
+  depth_optical: d435_depth_optical_frame
+
+grid:
+  resolution: 0.10
+  width: 160
+  height: 120
+  origin_x: -2.0
+  origin_y: -6.0
+  unknown_is_obstacle: true

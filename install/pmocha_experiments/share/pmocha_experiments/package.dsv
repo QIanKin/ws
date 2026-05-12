@@ -1,0 +1,8 @@
+source;share/pmocha_experiments/hook/cmake_prefix_path.ps1
+source;share/pmocha_experiments/hook/cmake_prefix_path.dsv
+source;share/pmocha_experiments/hook/cmake_prefix_path.sh
+source;share/pmocha_experiments/local_setup.bash
+source;share/pmocha_experiments/local_setup.dsv
+source;share/pmocha_experiments/local_setup.ps1
+source;share/pmocha_experiments/local_setup.sh
+source;share/pmocha_experiments/local_setup.zsh
