@@ -1,0 +1,10 @@
+^C:\USERS\A0823\DESKTOP\WS\MOCHA\MOCHA_PLANNER\CMAKELISTS.TXT
+setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/a0823/Desktop/ws/MOCHA/mocha_planner -BC:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk --check-stamp-file C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\a0823\Desktop\ws\MOCHA\build\v1_risk\CMakeFiles\904f42d1d3457d7962fa2c3f262ee1a9\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F82A39C3-5BE9-33F4-AB94-678335D7A2FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

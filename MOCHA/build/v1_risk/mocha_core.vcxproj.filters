@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\src\core\ackermann_bilayer_optimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\src\core\esdf_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\src\core\grid_astar_planner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\src\core\mco_optimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\src\core\perception_simulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\src\core\reference_selector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\src\core\risk_corridor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\src\core\risk_field_builder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\src\core\risk_grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\src\core\trajectory_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\a0823\Desktop\ws\MOCHA\mocha_planner\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AF0DFE62-1170-3516-ADEC-DB5A8C3B527F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

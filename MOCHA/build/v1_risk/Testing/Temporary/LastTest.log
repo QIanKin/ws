@@ -1,0 +1,93 @@
+Start testing: May 07 14:57 中国标准时间
+----------------------------------------------------------
+1/6 Testing: test_grid_astar_planner
+1/6 Test: test_grid_astar_planner
+Command: "C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk/Release/test_grid_astar_planner.exe"
+Directory: C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk
+"test_grid_astar_planner" start time: May 07 14:57 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"test_grid_astar_planner" end time: May 07 14:57 中国标准时间
+"test_grid_astar_planner" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: test_risk_aware_astar
+2/6 Test: test_risk_aware_astar
+Command: "C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk/Release/test_risk_aware_astar.exe"
+Directory: C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk
+"test_risk_aware_astar" start time: May 07 14:57 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"test_risk_aware_astar" end time: May 07 14:57 中国标准时间
+"test_risk_aware_astar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: test_risk_grid
+3/6 Test: test_risk_grid
+Command: "C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk/Release/test_risk_grid.exe"
+Directory: C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk
+"test_risk_grid" start time: May 07 14:57 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test_risk_grid" end time: May 07 14:57 中国标准时间
+"test_risk_grid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: test_mco_risk_penalty
+4/6 Test: test_mco_risk_penalty
+Command: "C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk/Release/test_mco_risk_penalty.exe"
+Directory: C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk
+"test_mco_risk_penalty" start time: May 07 14:57 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_mco_risk_penalty" end time: May 07 14:57 中国标准时间
+"test_mco_risk_penalty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: test_perception_risk_builder
+5/6 Test: test_perception_risk_builder
+Command: "C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk/Release/test_perception_risk_builder.exe"
+Directory: C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk
+"test_perception_risk_builder" start time: May 07 14:57 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"test_perception_risk_builder" end time: May 07 14:57 中国标准时间
+"test_perception_risk_builder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: test_risk_corridor
+6/6 Test: test_risk_corridor
+Command: "C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk/Release/test_risk_corridor.exe"
+Directory: C:/Users/a0823/Desktop/ws/MOCHA/build/v1_risk
+"test_risk_corridor" start time: May 07 14:57 中国标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"test_risk_corridor" end time: May 07 14:57 中国标准时间
+"test_risk_corridor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 07 14:57 中国标准时间
